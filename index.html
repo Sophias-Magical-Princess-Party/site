@@ -5,9 +5,9 @@ title: Home
 {% include head.html %}
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pink static-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html"
+      <a class="navbar-brand main-text" href="index.html"
         >Sophia's Magical Princess Party</a
       >
       <button
@@ -24,7 +24,7 @@ title: Home
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
+            <a class="nav-link nav-link-active" href="index.html"
               >Home
               <span class="sr-only">(current)</span>
             </a>
@@ -41,167 +41,124 @@ title: Home
           <li class="nav-item">
             <a class="nav-link" href="cast.html">Cast</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Page Content -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col px-0">
-        <div class="jumbotron mb-0">
-          <h1 class="display-3 text-center">
-            A magical experience for your princess!
-          </h1>
-          <!-- FIX THE HEIGHT OF THE CAROUSEL -->
-          <div class="row">
-            <div class="col-lg-4">
-              <!-- Empty Col -->
-            </div>
-            <div class="col-lg-4">
-              <div
-                id="carouselExampleFade"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="assets/img/homePage/slideshow/slide1.jpeg"
-                      class="img-fluid w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/homePage/slideshow/slide2.jpeg"
-                      class="img-fluid w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/homePage/slideshow/slide3.jpeg"
-                      class="img-fluid w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/homePage/slideshow/slide4.jpeg"
-                      class="img-fluid w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/homePage/slideshow/slide5.jpeg"
-                      class="img-fluid w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleFade"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleFade"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
+  <div class="container-fluid" id="ella2">
+    <div class="container">
+      <div class="row">
+        <div class="col px-0">
+          <div class="jumbotron mb-0 text-center" id="header">
+            <h1 class="display-3 text-center main-text text-white mb-4">
+              A magical experience for your princess!
+            </h1>
+            <div class="row">
+              <div class="col text-center">
+                <p class="h3 text-white pb-3">Book Today!</p>
               </div>
             </div>
-            <div class="col-lg-4">
-              <!-- Empty Col -->
-            </div>
-          </div>
-          <p class="lead text-center">Book Today!</p>
-          <br />
-          <!-- Find cleaner way to center this -->
-          <div class="row">
-            <div class="col text-center">
-              <a
-                class="btn btn-primary btn-lg"
-                href="Jumbo action link"
-                role="button"
-                >Schedule</a
-              >
+            <div class="row">
+              <div class="col text-center">
+                <a
+                  class="btn btn-primary btn-lg"
+                  href="/contact.html"
+                  role="button"
+                  >Schedule</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container-fluid bg-info">
-    <div class="container pb-5">
+
+    <div class="container px-0 bg-white">
+      <hr class="hr-pink">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="mt-5 sub-text">Announcements</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/img/homePage/announcement2.jpg"
+              class="img-fluid"
+              alt="COVID-19 Announcement"
+            />
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/img/homePage/Elsa-Announce.jpg"
+              class="img-fluid"
+              alt="Snow White is Here!"
+            />
+            <!-- <p class="text-center text-warning h1 sub-text"><u></u></p> -->
+          </div>
+        </div>
+      </div>
+      <hr class="hr-pink">
+    </div>
+
+    <div class="container">
       <div class="row">
+        <div class="col px-0">
+          <div class="jumbotron mb-0 text-center" id="banner">
+            <h1 class="display-3 text-center main-text text-white mb-4">
+              Customer Reviews
+            </h1>
+            <!-- <div class="row">
+              <div class="col text-center">
+                <p class="h3 text-white">Some Mom from League City!</p>
+              </div>
+            </div> -->
+            <div class="row">
+              <div class="col text-center">
+                <a
+                  class="btn btn-primary btn-lg"
+                  href="/contact.html"
+                  role="button"
+                  >See Here!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-0 py-5 bg-white">
+      <!-- <div class="row">
         <div class="col-lg-12 text-center">
-          <h1 class="mt-5">Announcements</h1>
+          <h1 class="mt-5">Mission Statement</h1>
         </div>
-      </div>
+      </div> -->
       <div class="row">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 text-right">
+          <p class="h2 sub-text">Mission Statement</p>
           <img
-            src="assets/img/homePage/announcement.jpeg"
+            src="assets/img/homePage/MissionImage.jpeg"
             class="img-fluid"
-            alt="COVID-19 Announcement"
+            alt="..."
           />
         </div>
-        <div class="col-lg-6 text-center">
-          <img
-            src="assets/img/homePage/SnowWhite-Hero.jpeg"
-            class="img-fluid"
-            alt="Snow White is Here!"
-          />
-          <p class="text-center text-warning h1"><u>Snow White is Here!</u></p>
+        <div class="col-lg-6">
+          <p class="h2 mt-2 mr-5" id="mission">
+            Our mission is to make sure your little princess has the most magical
+            experience possible. We strive to make your event not only
+            entertaining, but memorable as well.
+          </p>
         </div>
       </div>
-    </div>
+    </div>  
   </div>
-  <div class="container mt-5">
-    <!-- <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Mission Statement</h1>
-      </div>
-    </div> -->
-    <div class="row">
-      <div class="col-lg-6 text-right">
-        <p class="h2">Mission Statement</p>
-        <img
-          src="assets/img/homePage/MissionImage.jpeg"
-          class="img-fluid"
-          alt="..."
-        />
-      </div>
-      <div class="col-lg-6">
-        <p class="lead mt-2">
-          Our mission is to make sure your little princess has the most magical
-          experience possible. We strive to make your event not only
-          entertaining, but memorable as well. We offer a variety of unique,
-          original characters from stories/fables that are not copyrighted. We
-          are a private company; unaffiliated with any major production
-          companies or theme parks. Any similarities between these characters is
-          completely coincidental and unintentional. Thank you!
-        </p>
-      </div>
-    </div>
-  </div>
+  
 
   {% include footer.html %}

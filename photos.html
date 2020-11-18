@@ -5,9 +5,9 @@ title: Photos
 {% include head.html %}
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-pink static-top">
   <div class="container">
-    <a class="navbar-brand" href="index.html"
+    <a class="navbar-brand main-text" href="index.html"
       >Sophia's Magical Princess Party</a
     >
     <button
@@ -33,11 +33,14 @@ title: Photos
           <a class="nav-link" href="rates.html">Rates</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="photos.html">Photos</a>
+          <a class="nav-link nav-link-active" href="photos.html">Photos</a>
           <span class="sr-only">(current)</span>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cast.html">Cast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
         </li>
       </ul>
     </div>
@@ -45,26 +48,94 @@ title: Photos
 </nav>
 
 <!-- Page Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <section id="photos">
-        <img src="../assets/img/photosPage/anna-shoot.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image3.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/ariel-party_1.png" alt="..." />
-        <img src="../assets/img/photosPage/image4_1.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image3-5.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image1-1.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image4-2_1.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/anna.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image2-7_orig.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/ariel_orig.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image2-2.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image1-2_1.jpeg" alt="..." />
-        <img src="../assets/img/photosPage/image6-1.jpeg" alt="..." />
-      </section>
-    </div>
+<div class="container-fluid" id="aurora">
+  <div class="container text-center pt-5 bg-white">
+    <h1 class="photos-text display-3 mb-0">Photos</h1>
   </div>
+  <div class="container bg-white py-3 text-center">
+  <div class="grid">
+    <div class="grid-sizer">
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/anna-shoot.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/anna-shoot.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image3.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image3.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image3-5.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image3-5.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/ariel-party_1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/ariel-party_1.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image4_1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image4_1.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image1-1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image1-1.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image4-2_1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image4-2_1.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/anna.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/anna.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image2-7_orig.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image2-7_orig.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/ariel_orig.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/ariel_orig.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image2-2.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image2-2.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image1-2_1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image1-2_1.jpg" alt="..." />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="../assets/img/photosPage/image6-1.jpg" data-toggle="lightbox" data-gallery="princess-gallery">
+          <img src="../assets/img/photosPage/image6-1.jpg" alt="..." />
+        </a>
+        
+      </div>
+    </div>
+  </div> 
+  </div>  
 </div>
+
+
+<!-- jQuery script to get the lightbox to work-->
+<script type="text/javascript">
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
+  
+
+
 
 {% include footer.html %}
