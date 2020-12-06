@@ -22,11 +22,18 @@ body {
 }
 
 #elsa {
-  background-image: url("../img/Elsa-Text-light-resize.jpg")
+  background-image: url("../img/Elsa-Text-light-resize.jpg");
+  background-attachment: fixed;
 }
 
 #snow {
-  background-image: url("../img/Snow-text-light-resize.jpg")
+  background-image: url("../img/Snow-text-light-resize.jpg");
+  background-attachment: fixed;
+}
+
+#rapunzel {
+  background-image: url("../img/Rapunzel-text-light-fullsize.jpg");
+  background-attachment: fixed;
 }
 
 #snow2 {
