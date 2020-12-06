@@ -47,10 +47,10 @@ body {
 
 #header {
   background: url('../img/homePage/Trio-Hero.jpg') no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   background-color: #f0f0f0;
 }
