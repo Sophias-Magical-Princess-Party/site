@@ -6,38 +6,38 @@ html {
 }
 
 body {
-  background-image: url('../img/floral.jpg');
+  background-image: url('https://i.ibb.co/qg4xFVN/floral.jpg');
   background-attachment: fixed;
   background-color: #f0f0f0;
 }
 
 #ella2 {
-  background-image: url("../img/Ella-text-light-resize.jpg");
+  background-image: url("https://i.ibb.co/c35Q7Rn/Ella-text-light-resize.jpg");
   background-attachment: fixed;
 }
 
 #aurora {
-  background-image: url("../img/Aurora-text-light-resize.jpg");
+  background-image: url("https://i.ibb.co/N3scYdz/Aurora-text-light-resize.jpg");
   background-attachment: fixed;
 }
 
 #elsa {
-  background-image: url("../img/Elsa-Text-light-resize.jpg");
+  background-image: url("https://i.ibb.co/ng7pgqL/Elsa-Text-light-resize.jpg");
   background-attachment: fixed;
 }
 
 #snow {
-  background-image: url("../img/Snow-text-light-resize.jpg");
+  background-image: url("https://i.ibb.co/pR6Lwb3/Snow-text-light-resize.jpg");
   background-attachment: fixed;
 }
 
 #rapunzel {
-  background-image: url("../img/Rapunzel-text-light-fullsize.jpg");
+  background-image: url("https://i.ibb.co/VQJ2PbG/Rapunzel-text-light-fullsize.jpg");
   background-attachment: fixed;
 }
 
 #snow2 {
-  background-image: url("../img/Snow-text-light-fullsize.jpg");
+  background-image: url("https://i.ibb.co/RyWHY4K/Snow-text-light-fullsize.jpg");
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -46,7 +46,7 @@ body {
 }
 
 #header {
-  background: url('../img/homePage/Trio-Hero.jpg') no-repeat center center fixed;
+  background: url('https://i.ibb.co/mtnQfM9/Trio-Hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -56,7 +56,7 @@ body {
 }
 
 #banner {
-  background: url('../img/homePage/rapunzel-hero2.jpg') no-repeat center center fixed;
+  background: url('https://i.ibb.co/0X9dhqt/rapunzel-hero2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
