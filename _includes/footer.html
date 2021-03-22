@@ -26,5 +26,14 @@
   <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/js/masonry.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('Y6LePg4kaAAAAABlA7so5_s6WPtGFyReu8UDmn06u', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>
+
 </body>
 </html>
